@@ -32,6 +32,12 @@ body {
     padding: 16px 10%;
 }
 
+/* Media screen for mobile 375px to 768px, let padding on the body be 5% */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 16px 5%;
+  }
+}
 
 .poppins {
   font-family: 'Poppins', sans-serif;
