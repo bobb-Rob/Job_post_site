@@ -15,7 +15,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="poppins mb-6">
+          <span className="font-bold">Github</span>
+          {" "}
+          <span>Jobs</span>
+        </div>
+        {children}
+      </body>
     </html>
   )
 }
