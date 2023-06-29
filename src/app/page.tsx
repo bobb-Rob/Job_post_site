@@ -1,10 +1,14 @@
+import FilterSidebar from "./component/FilterSidebar";
 import Nav from "./component/nav";
 
 
 export default function Home() {
   return (
-    <main className="">
+    <div className="">
       <Nav />
-    </main>
+      <main className="mt-5">
+        <FilterSidebar />
+      </main>
+    </div>
   )
 }
