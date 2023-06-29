@@ -39,10 +39,12 @@
         <div className="bg-white rounded flex justify-between items-center p-2 pr-1 h-14 w-[95%] md:w-2/3">
           { isFocus ? null : <MdOutlineWorkOutline
             className="text-xl mr-2 text-myGray"
+            data-cy="work-icon"
           /> }
           <input
             className="h-full w-full roboto text-xs focus:outline-none"
-            type="text"
+            type="text"           
+            data-cy="search"
             placeholder={placeholder}
             onFocus={handleFocus}
             onBlur={handleBlur}
