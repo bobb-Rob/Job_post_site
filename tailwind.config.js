@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         myGray: '#B9BDCF',
         myBlue: '#1E86FF',
+        midNightBlue: '#334680',
       },
     },
   },
